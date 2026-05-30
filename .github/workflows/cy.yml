@@ -3,7 +3,7 @@ name: CI
 on: [push]
 jobs:
   build-test:
-      runs-on: ubuntu-lastest
+      runs-on: ubuntu-latest
       steps:
         
           - name: Checkout
