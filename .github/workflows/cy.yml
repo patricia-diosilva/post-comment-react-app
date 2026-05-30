@@ -15,8 +15,6 @@ jobs:
           build: 'npm run build'
 
       - uses: actions/upload-artifact@v3
-        with:
-          name: cypress-videos
         if: always()
         with:
           name: Cypress Results
